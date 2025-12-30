@@ -1,9 +1,7 @@
 const express = require("express");
 const fs = require("fs");
 const app = express();
-app.listen(PORT, () => {
-  console.log("Server started");
-});
+const PORT =process.env.PORT||10000;
 
 
 app.use(express.json());
