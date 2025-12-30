@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  background: white;
+  margin: 40px auto;
+  padding: 25px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.about {
+  font-size: 15px;
+  margin: 15px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #e9ecef;
+  margin: 6px 0;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#response {
+  color: green;
+  margin-top: 10px;
+}

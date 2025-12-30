@@ -1,0 +1,14 @@
+{
+  "name": "my-website",
+  "version": "1.0.0",
+  "description": "Personal website of Subhajit Banerjee",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Subhajit Banerjee",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
